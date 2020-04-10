@@ -1,0 +1,71 @@
+{
+  "version": "0.1.0",
+  "name": "Manning Publications",
+  "type": "konnector",
+  "language": "node",
+  "icon": "icon.png",
+  "slug": "manning",
+  "source": "git@github.com:sebn/cozy-manning.git",
+  "editor": "Cozy",
+  "vendor_link": "https://www.manning.com/",
+  "categories": ["other"],
+  "fields": {
+    "login": {
+      "type": "text"
+    },
+    "password": {
+      "type": "password"
+    },
+    "advancedFields": {
+      "folderPath": {
+        "advanced": true,
+        "isRequired": false
+      }
+    }
+  },
+  "data_types": [
+    "book"
+  ],
+  "screenshots": [],
+  "permissions": {
+    "files": {
+      "type": "io.cozy.files"
+    },
+    "accounts": {
+      "type": "io.cozy.accounts",
+      "verbs": ["GET"]
+    }
+  },
+  "developer": {
+    "name": "sebn",
+    "url": "https://github.com/sebn/"
+  },
+  "langs": ["fr", "en"],
+  "locales": {
+    "fr": {
+      "short_description": "Récupère vos livres",
+      "long_description": "Récupère vos livres numériques sur le site manning.com",
+      "permissions": {
+        "files": {
+          "description": "Utilisé pour sauvegarder les livres"
+        },
+        "accounts": {
+          "description": "Utilisé pour obtenir les données du compte"
+        }
+      }
+    },
+    "en": {
+      "short_description": "Fetch your ebooks",
+      "long_description": "Fetch your ebooks from the manning.com website",
+      "permissions": {
+        "files": {
+          "description": "Required to save the books"
+        },
+        "accounts": {
+          "description": "Required to get the account's data"
+        }
+      }
+    }
+  },
+  "manifest_version": "2"
+}
