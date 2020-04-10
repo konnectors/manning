@@ -4,7 +4,7 @@
   "description": "Fetch your ebooks from the manning.com website",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sebn/cozy-manning.git"
+    "url": "git@github.com:konnectors/manning.git"
   },
   "keywords": [],
   "author": "Sébastien Nicouleaud",
@@ -27,6 +27,7 @@
     "start": "node ./src/index.js",
     "dev": "cozy-konnector-dev",
     "standalone": "cozy-konnector-standalone",
+    "pretest": "npm run clean",
     "test": "jest",
     "check": "konitor check .",
     "clean": "rm -rf ./data",
@@ -46,7 +47,7 @@
     "eslint-config-cozy-app": "1.5.0",
     "git-directory-deploy": "1.5.1",
     "husky": "4.2.5",
-    "jest": "^25.3.0",
+    "jest": "25.3.0",
     "konitor": "0.10.3",
     "svgo": "1.3.2",
     "webpack": "4.42.1",
