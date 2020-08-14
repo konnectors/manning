@@ -8,7 +8,7 @@
   "source": "git@github.com:sebn/cozy-manning.git",
   "editor": "Cozy",
   "vendor_link": "https://www.manning.com/",
-  "categories": ["other"],
+  "categories": ["others"],
   "fields": {
     "login": {
       "type": "text"
