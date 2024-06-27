@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Manning Publications",
   "type": "konnector",
   "language": "node",
@@ -8,7 +8,9 @@
   "source": "git@github.com:sebn/cozy-manning.git",
   "editor": "Cozy",
   "vendor_link": "https://www.manning.com/",
-  "categories": ["others"],
+  "categories": [
+    "others"
+  ],
   "fields": {
     "login": {
       "type": "text"
@@ -33,14 +35,19 @@
     },
     "accounts": {
       "type": "io.cozy.accounts",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     }
   },
   "developer": {
     "name": "sebn",
     "url": "https://github.com/sebn/"
   },
-  "langs": ["fr", "en"],
+  "langs": [
+    "fr",
+    "en"
+  ],
   "locales": {
     "fr": {
       "short_description": "Récupère vos livres",
