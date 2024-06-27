@@ -1,6 +1,6 @@
 {
   "name": "cozy-manning",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "description": "Fetch your ebooks from the manning.com website",
   "repository": {
     "type": "git",
